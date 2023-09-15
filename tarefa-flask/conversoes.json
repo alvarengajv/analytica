@@ -1,0 +1,13 @@
+[
+    {"nome": "Argentina", "codigo": "AR"},
+    {"nome": "Bolivia", "codigo": "BO"},
+    {"nome": "Brazil", "codigo": "BR"},
+    {"nome": "Chile", "codigo": "CL"},
+    {"nome": "Colombia", "codigo": "CO"},
+    {"nome": "Ecuador", "codigo": "EC"},
+    {"nome": "Paraguay", "codigo": "PY"},
+    {"nome": "Peru", "codigo": "PE"},
+    {"nome": "Suriname", "codigo": "SR"},
+    {"nome": "Uruguay", "codigo": "UY"},
+    {"nome": "Venezuela", "codigo": "VE"}
+]

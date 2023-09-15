@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados {{ pais }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Dados {{ pais }}</h1>
+    </header>
+
+    <!-- Container para a Média Salarial -->
+    <div class="container">
+        <h2>Média Salarial</h2>
+        <p>${{ media_salarial|round(3) }}</p>
+    </div>
+
+    <div class="margin"></div>
+
+    <!-- Container para a Média Salarial por Faixa Etária -->
+    <div class="container">
+        <h2>Média Salarial por Faixa Etária</h2>
+        <table>
+            <tr>
+                <th>Faixa Etária</th>
+                <th>Média Salarial</th>
+            </tr>
+            {% for faixa in media_por_faixa_etaria %}
+            <tr>
+                <td>{{ faixa.faixa_etaria }}</td>
+                <td>${{ faixa.media_salarial|round(3) }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <div class="margin"></div>
+
+    <!-- Container para a Representatividade de Gênero -->
+    <div class="container">
+        <h2>Representatividade de Gênero na População (em %)</h2>
+        <p>Homens: {{ representatividade_genero['Homens'] |round(2)}}%</p>
+        <p>Mulheres: {{ representatividade_genero['Mulheres'] |round(2)}}%</p>
+        <p>Outros: {{ representatividade_genero['Outros'] |round(2)}}%</p>
+    </div>
+
+    <div class="margin"></div>
+
+    <!-- Container para a Capital -->
+    <div class="container">
+        <h2>Capital</h2>
+        <p>{{ capital }}</p>
+    </div>
+
+    <div class="margin"></div>
+
+    <!-- Container para a Moeda -->
+    <div class="container">
+        <h2>Moeda</h2>
+        <p>{{ moeda }}</p>
+    </div>
+</body>
+</html>

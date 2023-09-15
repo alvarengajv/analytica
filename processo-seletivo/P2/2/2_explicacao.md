@@ -1,0 +1,3 @@
+# Movimentação do cavalo no xadrez
+
+O programa valida os movimentos do cavalo no contexto do xadrez. Através das funções `movimentacao_cavalo(posicao_inicial, posicao_final)` e `main()`, solicita movimentos ao usuário, verificando se eles estão de acordo com as regras do jogo. A função de validação compara as posições iniciais e finais com uma lista de movimentos possíveis para um cavalo. O programa continua a solicitar entradas até que o usuário decida encerrar. Cada entrada é analisada para garantir formatação correta e, em seguida, é verificado se o movimento é válido. Resumidamente, este código serve para verificar e informar se os movimentos do cavalo no xadrez são válidos, promovendo uma interação contínua com o usuário para entrada e validação dos movimentos.

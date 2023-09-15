@@ -1,0 +1,3 @@
+# Frequência de números
+
+Esse código Python implementa um programa que permite aos usuários inserir uma série de números, calcula a frequência de ocorrência de cada número e apresenta as informações ao usuário. A função `frequencia_numeros()` cria um dicionário para rastrear a contagem de cada número e solicita entradas repetidamente até que o usuário insira 'f'. Os números válidos são contados e armazenados no dicionário. Em seguida, o programa itera pelo dicionário e exibe quantas vezes cada número apareceu, indicando se ocorreu uma única vez ou várias vezes. A função `main()` é responsável por iniciar o processo. Em resumo, este programa fornece uma maneira simples de calcular e comunicar a frequência de números fornecidos pelo usuário, encerrando quando solicitado.

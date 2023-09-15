@@ -1,0 +1,46 @@
+NORTE,,
+sigla_uf,SUM of inv_col_tratamento,AVERAGE of indice_atendimento_com_coleta_com_tratamento
+AC,"R$841,152,205.26",0.03943636364
+AM,"R$4,305,944,958.78",0.007032258065
+AP,"R$1,136,176,494.98",0.04554375
+PA,"R$8,602,458,603.50",0.00809375
+RO,"R$2,072,596,814.36",0.02816730769
+RR,"R$576,578,506.60",0.01214666667
+TO,"R$1,602,075,936.43",0.04523478261
+,,
+
+
+NORDESTE,,
+sigla_uf,SUM of inv_col_tratamento,AVERAGE of indice_atendimento_com_coleta_com_tratamento
+AL,"R$3,115,972,923.86",0.04071666667
+BA,"R$9,595,973,249.09",0.1400606715
+CE,"R$8,221,004,651.73",0.1642771739
+MA,"R$6,671,191,290.18",0.006769124424
+PB,"R$2,900,121,879.95",0.05869863636
+PE,"R$9,889,706,560.36",0.07864594595
+PI,"R$3,026,521,491.55",0.007019642857
+RN,"R$3,740,999,397.11",0.1529054217
+SE,"R$2,572,943,164.21",0.0407
+,,
+
+CENTRO-OESTE,,
+sigla_uf,SUM of inv_col_tratamento,AVERAGE of indice_atendimento_com_coleta_com_tratamento
+DF,"R$1,702,413,129.30",0.8308
+GO,"R$6,190,718,753.27",0.1923101626
+MS,"R$2,388,873,944.33",0.1539835443
+MT,"R$3,665,429,570.85",0.07212695035
+,,
+
+SUDESTE,,
+sigla_uf,SUM of inv_col_tratamento,AVERAGE of indice_atendimento_com_coleta_com_tratamento
+ES,"R$3,222,231,889.79",0.2896961538
+MG,"R$9,547,098,226.24",0.1732206331
+RJ,"R$11,184,830,735.97",0.2166358696
+SP,"R$19,528,096,720.32",0.7611083721
+,,
+
+SUL,,
+sigla_uf,SUM of inv_col_tratamento,AVERAGE of indice_atendimento_com_coleta_com_tratamento
+PR,"R$7,241,594,263.48",0.260233584
+RS,"R$8,300,517,071.44",0.05080603622
+SC,"R$7,640,804,488.80",0.06590779661
